@@ -17,9 +17,10 @@ img {
   }
 
 .slider {
- width: 1200px;
+ width: 600px;
 	margin: 0 auto;
 	padding: 0 15px;
+  background-color: rgb(25, 26, 24);
 }
 .slick-prev:before,
 .slick-next:before {
@@ -27,9 +28,20 @@ img {
     font-size: 30px;
     line-height: 1;
     opacity: .75;
-    color: #130755;
+    color: #131024;
    
 }
 .slick-next {
-    right: 554px;
+    right: -23px;
+}
+.slick-prev {
+    left: -32px;
+}
+p {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
