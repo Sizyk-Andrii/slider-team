@@ -32,6 +32,22 @@ img {
     margin: 0;
   }
 
+.slick-prev {
+  left: -10px;
+}
+
+..slick-next {
+  right: -10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .90;
+    color: coral;
+}
 
 .slider {
  width: 600px;
@@ -47,7 +63,6 @@ img {
       line-height: 1;
       opacity: .75;
       color: #075520;
-     
   }
  
   .paragraph {
