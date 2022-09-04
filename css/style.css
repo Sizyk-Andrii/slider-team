@@ -15,3 +15,25 @@ img {
   ul {
     margin: 0;
   }
+
+  /* ===Andrii Sizyk styles ====== */
+
+  .main-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 16px auto;
+  padding: 30px;
+  width: 1200px;
+  }
+
+  .slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: #075520;
+   
+}
