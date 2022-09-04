@@ -32,6 +32,10 @@ img {
     margin: 0;
   }
 
+  .paragraph {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(13, 180, 111);
+  }
 
   .team-slider{
     display: flex;
@@ -77,3 +81,4 @@ img {
     opacity: .75;
     color: #075520;
 }
+
