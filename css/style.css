@@ -32,6 +32,16 @@ img {
     margin: 0;
   }
 
+  .slick-prev:before,
+  .slick-next:before {
+      font-family: 'slick';
+      font-size: 30px;
+      line-height: 1;
+      opacity: .75;
+      color: #075520;
+     
+  }
+ 
   .paragraph {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(13, 180, 111);
